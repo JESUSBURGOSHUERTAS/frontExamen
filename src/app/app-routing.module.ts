@@ -13,10 +13,10 @@ import {DetallesDuenosComponent} from './duenos/detalles-duenos/detalles-duenos.
 import {EditarDuenosComponent} from './duenos/editar-duenos/editar-duenos.component'
 import {NuevoDuenosComponent} from './duenos/nuevo-duenos/nuevo-duenos.component'
 import {ListaPacientesComponent} from './pacientes/lista-pacientes/lista-pacientes.component'
-import {DetallesPacientesComponent} from './pacientes/detalles-pacientes/detalles-pacientes.component'
+
 import {NuevoPacientesComponent} from './pacientes/nuevo-pacientes/nuevo-pacientes.component'
 import {EditarPacientesComponent} from './pacientes/editar-pacientes/editar-pacientes.component'
-
+import {DetallesPacientesComponent} from './pacientes/detalles-pacientes/detalles-pacientes.component'
 
 const routes: Routes = [
   {path: '', component: ListaEspeciesComponent},
@@ -27,7 +27,7 @@ const routes: Routes = [
   {path: 'especies/detalles-especies/:id', component: DetallesEspeciesComponent },
   {path: 'razas/detalles-razas/:id', component: DetallesRazasComponent },
   {path: 'duenos/detalles-duenos/:idDueno', component: DetallesDuenosComponent },
-  {path: 'pacientes/detalles-pacientes/:idpaciente', component: DetallesPacientesComponent },
+
   {path: 'nuevaEspecie', component: NuevoEspeciesComponent},
   {path: 'nuevaRaza', component: NuevoRazasComponent},
   {path: 'nuevoDueno', component: NuevoDuenosComponent},
@@ -36,7 +36,7 @@ const routes: Routes = [
   {path: 'razas/editar-razas/:idraza', component: EditarRazasComponent},
   {path: 'duenos/editar-duenos/:idDueno', component: EditarDuenosComponent},
   {path: 'pacientes/editar-pacientes/:idpaciente', component: EditarPacientesComponent},
-
+  { path: 'pacientes/detalles-pacientes/:id', component: DetallesPacientesComponent },
 
 
   {path: '**', redirectTo: '', pathMatch: 'full'}
