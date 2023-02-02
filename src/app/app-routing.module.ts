@@ -12,12 +12,14 @@ import {ListaDuenosComponent} from './duenos/lista-duenos/lista-duenos.component
 import {DetallesDuenosComponent} from './duenos/detalles-duenos/detalles-duenos.component'
 import {EditarDuenosComponent} from './duenos/editar-duenos/editar-duenos.component'
 import {NuevoDuenosComponent} from './duenos/nuevo-duenos/nuevo-duenos.component'
+import {ListaPacientesComponent} from './pacientes/lista-pacientes/lista-pacientes.component'
 
 const routes: Routes = [
   {path: '', component: ListaEspeciesComponent},
   {path: 'lista-especies', component: ListaEspeciesComponent },
   {path: 'lista-razas', component: ListaRazasComponent },
   {path: 'lista-duenos', component: ListaDuenosComponent },
+  {path: 'lista-pacientes', component: ListaPacientesComponent },
   {path: 'especies/detalles-especies/:id', component: DetallesEspeciesComponent },
   {path: 'razas/detalles-razas/:id', component: DetallesRazasComponent },
   {path: 'duenos/detalles-duenos/:idDueno', component: DetallesDuenosComponent },

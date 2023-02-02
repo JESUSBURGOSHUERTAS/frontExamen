@@ -8,10 +8,6 @@ import {FormsModule} from '@angular/forms';
 import { ListaEspeciesComponent } from './especies/lista-especies/lista-especies.component';
 import { NuevoEspeciesComponent } from './especies/nuevo-especies/nuevo-especies.component';
 import { EditarEspeciesComponent } from './especies/editar-especies/editar-especies.component';
-
-//External
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ToastrModule } from 'ngx-toastr';
 import { DetallesEspeciesComponent } from './especies/detalles-especies/detalles-especies.component';
 import { ListaRazasComponent } from './razas/lista-razas/lista-razas.component';
 import { DetallesRazasComponent } from './razas/detalles-razas/detalles-razas.component';
@@ -21,6 +17,14 @@ import { ListaDuenosComponent } from './duenos/lista-duenos/lista-duenos.compone
 import { DetallesDuenosComponent } from './duenos/detalles-duenos/detalles-duenos.component';
 import { NuevoDuenosComponent } from './duenos/nuevo-duenos/nuevo-duenos.component';
 import { EditarDuenosComponent } from './duenos/editar-duenos/editar-duenos.component';
+import { ListaPacientesComponent } from './pacientes/lista-pacientes/lista-pacientes.component';
+import { DetallesPacientesComponent } from './pacientes/detalles-pacientes/detalles-pacientes.component';
+import { NuevoPacientesComponent } from './pacientes/nuevo-pacientes/nuevo-pacientes.component';
+import { EditarPacientesComponent } from './pacientes/editar-pacientes/editar-pacientes.component';
+//External
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
+
 
 
 
@@ -38,7 +42,11 @@ import { EditarDuenosComponent } from './duenos/editar-duenos/editar-duenos.comp
     ListaDuenosComponent,
     DetallesDuenosComponent,
     NuevoDuenosComponent,
-    EditarDuenosComponent
+    EditarDuenosComponent,
+    ListaPacientesComponent,
+    DetallesPacientesComponent,
+    NuevoPacientesComponent,
+    EditarPacientesComponent
   ],
   imports: [
     BrowserModule,
