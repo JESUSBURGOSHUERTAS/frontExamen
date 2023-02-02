@@ -2,10 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListaProductoComponent } from './producto/lista-producto.component';
-import { DetalleProductoComponent } from './producto/detalle-producto.component';
-import { NuevoProductoComponent } from './producto/nuevo-producto.component';
-import { EditarProductoComponent } from './producto/editar-producto.component';
+
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { ListaEspeciesComponent } from './especies/lista-especies/lista-especies.component';
@@ -30,10 +27,6 @@ import { EditarDuenosComponent } from './duenos/editar-duenos/editar-duenos.comp
 @NgModule({
   declarations: [
     AppComponent,
-    ListaProductoComponent,
-    DetalleProductoComponent,
-    NuevoProductoComponent,
-    EditarProductoComponent,
     ListaEspeciesComponent,
     NuevoEspeciesComponent,
     EditarEspeciesComponent,
