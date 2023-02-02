@@ -18,7 +18,7 @@ export class DetallesDuenosComponent implements OnInit{
   ) { }
 
   ngOnInit() {
-    const idDuenos = this.activatedRoute.snapshot.params['idDuenos'];
+    const idDuenos = this.activatedRoute.snapshot.params['idDueno'];
     this.duenosService.detail(idDuenos).subscribe(
       data => {
         this.duenoss = data;
