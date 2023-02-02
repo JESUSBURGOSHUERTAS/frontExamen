@@ -15,7 +15,7 @@ import {EditarRazasComponent} from './razas/editar-razas/editar-razas.component'
 import {ListaDuenosComponent} from './duenos/lista-duenos/lista-duenos.component'
 import {DetallesDuenosComponent} from './duenos/detalles-duenos/detalles-duenos.component'
 import {EditarDuenosComponent} from './duenos/editar-duenos/editar-duenos.component'
-
+import {NuevoDuenosComponent} from './duenos/nuevo-duenos/nuevo-duenos.component'
 
 const routes: Routes = [
   {path: '', component: ListaProductoComponent},
@@ -29,6 +29,7 @@ const routes: Routes = [
   {path: 'nuevo', component: NuevoProductoComponent},
   {path: 'nuevaEspecie', component: NuevoEspeciesComponent},
   {path: 'nuevaRaza', component: NuevoRazasComponent},
+  {path: 'nuevoDueno', component: NuevoDuenosComponent},
   {path: 'editar/:id', component: EditarProductoComponent},
   {path: 'especies/editar-especies/:id', component: EditarEspeciesComponent},
   {path: 'razas/editar-razas/:idraza', component: EditarRazasComponent},
