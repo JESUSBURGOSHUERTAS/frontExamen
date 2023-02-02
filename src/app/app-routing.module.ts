@@ -8,15 +8,25 @@ import { ListaEspeciesComponent } from './especies/lista-especies/lista-especies
 import {DetallesEspeciesComponent} from './especies/detalles-especies/detalles-especies.component'
 import { EditarEspeciesComponent } from './especies/editar-especies/editar-especies.component';
 import {NuevoEspeciesComponent} from './especies/nuevo-especies/nuevo-especies.component'
+import {ListaRazasComponent} from './razas/lista-razas/lista-razas.component';
+import{NuevoRazasComponent} from './razas/nuevo-razas/nuevo-razas.component'
+import {DetallesRazasComponent} from './razas/detalles-razas/detalles-razas.component'
+import {EditarRazasComponent} from './razas/editar-razas/editar-razas.component'
+
+
 const routes: Routes = [
   {path: '', component: ListaProductoComponent},
   {path: 'lista-especies', component: ListaEspeciesComponent },
-  { path: 'especies/detalles-especies/:id', component: DetallesEspeciesComponent },
+  {path: 'lista-razas', component: ListaRazasComponent },
+  {path: 'especies/detalles-especies/:idraza', component: DetallesEspeciesComponent },
+  {path: 'razas/detalles-razas/:id', component: DetallesRazasComponent },
   {path: 'detalle/:id', component: DetalleProductoComponent},
   {path: 'nuevo', component: NuevoProductoComponent},
   {path: 'nuevaEspecie', component: NuevoEspeciesComponent},
+  {path: 'nuevaRaza', component: NuevoRazasComponent},
   {path: 'editar/:id', component: EditarProductoComponent},
   {path: 'especies/editar-especies/:id', component: EditarEspeciesComponent},
+  {path: 'razas/editar-razas/:idraza', component: EditarRazasComponent},
 
 
   {path: '**', redirectTo: '', pathMatch: 'full'}

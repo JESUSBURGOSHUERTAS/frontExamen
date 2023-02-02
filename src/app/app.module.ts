@@ -16,6 +16,10 @@ import { EditarEspeciesComponent } from './especies/editar-especies/editar-espec
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { DetallesEspeciesComponent } from './especies/detalles-especies/detalles-especies.component';
+import { ListaRazasComponent } from './razas/lista-razas/lista-razas.component';
+import { DetallesRazasComponent } from './razas/detalles-razas/detalles-razas.component';
+import { NuevoRazasComponent } from './razas/nuevo-razas/nuevo-razas.component';
+import { EditarRazasComponent } from './razas/editar-razas/editar-razas.component';
 
 
 
@@ -29,7 +33,11 @@ import { DetallesEspeciesComponent } from './especies/detalles-especies/detalles
     ListaEspeciesComponent,
     NuevoEspeciesComponent,
     EditarEspeciesComponent,
-    DetallesEspeciesComponent
+    DetallesEspeciesComponent,
+    ListaRazasComponent,
+    DetallesRazasComponent,
+    NuevoRazasComponent,
+    EditarRazasComponent
   ],
   imports: [
     BrowserModule,
