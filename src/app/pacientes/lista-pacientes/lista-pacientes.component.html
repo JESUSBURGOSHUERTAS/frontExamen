@@ -6,9 +6,9 @@
       <tr>
         <th scope="col">idPaciente</th>
         <th scope="col">Nombre</th>
-        <th scope="col">Raza</th>
+        <!-- <th scope="col">Raza</th> -->
         <th scope="col">F_Nacimiento</th>
-        <th scope="col">Dueño</th>
+        <!-- <th scope="col">Dueño</th> -->
         <th scope="col">Ver</th>
         <th scope="col">Editar</th>
         <th scope="col">Borrar</th>
@@ -18,9 +18,9 @@
       <tr *ngFor="let paciente of pacientess">
         <td>{{paciente.nombre}}</td>
         <td>{{paciente.idpaciente}}</td>
-        <td>{{paciente.raza.nombreRaza}}</td>
+        <!-- <td>{{paciente.raza.nombreRaza}}</td> -->
         <td>{{paciente.fechaNacimiento}}</td>
-        <td>{{paciente.dueno.nombre}}</td>
+        <!-- <td>{{paciente.dueno.nombre}}</td> -->
 
         <td>
           <button class="btn btn-outline-primary" routerLink="/pacientes/detalles-pacientes/{paciente.idpaciente}">
