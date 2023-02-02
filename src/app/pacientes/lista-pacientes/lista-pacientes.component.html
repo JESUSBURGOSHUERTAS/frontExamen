@@ -23,14 +23,14 @@
         <td>{{paciente.dueno.nombre}}</td>
 
         <td>
-          <button class="btn btn-outline-primary" routerLink="/pacientes/detalles-pacientes/{{paciente.idpaciente}}">
+          <button class="btn btn-outline-primary" routerLink="/pacientes/detalles-pacientes/{paciente.idpaciente}">
             <i class="far fa-eye"></i> Ver
           </button>
         </td>
 
 
         <td>
-          <button class="btn btn-outline-warning" routerLink="/pacientes/editar-pacientes/{{paciente.idpaciente}}">
+          <button class="btn btn-outline-warning" routerLink="/pacientes/editar-pacientes/{paciente.idpaciente}">
             <i class="far fa-edit"></i> Editar
           </button>
         </td>
