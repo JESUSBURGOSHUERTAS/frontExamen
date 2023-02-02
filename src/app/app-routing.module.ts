@@ -12,14 +12,19 @@ import {ListaRazasComponent} from './razas/lista-razas/lista-razas.component';
 import{NuevoRazasComponent} from './razas/nuevo-razas/nuevo-razas.component'
 import {DetallesRazasComponent} from './razas/detalles-razas/detalles-razas.component'
 import {EditarRazasComponent} from './razas/editar-razas/editar-razas.component'
+import {ListaDuenosComponent} from './duenos/lista-duenos/lista-duenos.component'
+import {DetallesDuenosComponent} from './duenos/detalles-duenos/detalles-duenos.component'
+import {EditarDuenosComponent} from './duenos/editar-duenos/editar-duenos.component'
 
 
 const routes: Routes = [
   {path: '', component: ListaProductoComponent},
   {path: 'lista-especies', component: ListaEspeciesComponent },
   {path: 'lista-razas', component: ListaRazasComponent },
-  {path: 'especies/detalles-especies/:idraza', component: DetallesEspeciesComponent },
+  {path: 'lista-duenos', component: ListaDuenosComponent },
+  {path: 'especies/detalles-especies/:id', component: DetallesEspeciesComponent },
   {path: 'razas/detalles-razas/:id', component: DetallesRazasComponent },
+  {path: 'duenos/detalles-duenos/:idDueno', component: DetallesDuenosComponent },
   {path: 'detalle/:id', component: DetalleProductoComponent},
   {path: 'nuevo', component: NuevoProductoComponent},
   {path: 'nuevaEspecie', component: NuevoEspeciesComponent},
@@ -27,6 +32,8 @@ const routes: Routes = [
   {path: 'editar/:id', component: EditarProductoComponent},
   {path: 'especies/editar-especies/:id', component: EditarEspeciesComponent},
   {path: 'razas/editar-razas/:idraza', component: EditarRazasComponent},
+  {path: 'duenos/editar-duenos/:idDueno', component: EditarDuenosComponent},
+
 
 
   {path: '**', redirectTo: '', pathMatch: 'full'}

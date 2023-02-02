@@ -20,6 +20,10 @@ import { ListaRazasComponent } from './razas/lista-razas/lista-razas.component';
 import { DetallesRazasComponent } from './razas/detalles-razas/detalles-razas.component';
 import { NuevoRazasComponent } from './razas/nuevo-razas/nuevo-razas.component';
 import { EditarRazasComponent } from './razas/editar-razas/editar-razas.component';
+import { ListaDuenosComponent } from './duenos/lista-duenos/lista-duenos.component';
+import { DetallesDuenosComponent } from './duenos/detalles-duenos/detalles-duenos.component';
+import { NuevoDuenosComponent } from './duenos/nuevo-duenos/nuevo-duenos.component';
+import { EditarDuenosComponent } from './duenos/editar-duenos/editar-duenos.component';
 
 
 
@@ -37,7 +41,11 @@ import { EditarRazasComponent } from './razas/editar-razas/editar-razas.componen
     ListaRazasComponent,
     DetallesRazasComponent,
     NuevoRazasComponent,
-    EditarRazasComponent
+    EditarRazasComponent,
+    ListaDuenosComponent,
+    DetallesDuenosComponent,
+    NuevoDuenosComponent,
+    EditarDuenosComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row mt-5" *ngIf="duenoss">
+    <div class="col-md-4 mx-auto">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header text-center">
+              Detalle
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><b>ID: </b>{{duenoss.idDueno}}</li>
+              <li class="list-group-item"><b>Nombre: </b>{{duenoss.nombre}}</li>
+              <li class="list-group-item"><b>TI: </b>{{duenoss.tipoIdentificacion}}</li>
+              <li class="list-group-item"><b>Identificacion: </b>{{duenoss.identificacion}}</li>
+              <li class="list-group-item"><b>Ciudad: </b>{{duenoss.ciudad}}</li>
+              <li class="list-group-item"><b>Direccion: </b>{{duenoss.direccion}}</li>
+              <li class="list-group-item"><b>Telefono: </b>{{duenoss.telefono}}</li>
+              <li class="list-group-item"><b>FechaRegistro: </b>{{duenoss.fechaRegistro}}</li>
+
+            </ul>
+            <div class="card-footer">
+                <button class="btn btn-outline-primary btn-block" (click)="volver()"><i class="fas fa-arrow-alt-circle-left"></i> Volver</button>
+            </div>
+          </div>
+
+    </div>
+</div>
+</div>

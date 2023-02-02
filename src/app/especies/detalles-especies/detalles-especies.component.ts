@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { EspeciesService } from 'src/app/service/especies.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-import { EspeciesService } from 'src/app/service/especies.service';
 import { Especies } from '../../models/especies';
 @Component({
   selector: 'app-detalles-especies',

@@ -13,9 +13,10 @@ export class EspeciesService {
     return this.httpClient.get<Especies[]>(this.especiesURL + 'lista');
   }
 
-  public detail(id: number): Observable<Especies>{
+  public detail(id: number): Observable<Especies> {
     return this.httpClient.get<Especies>(this.especiesURL + `detail/${id}`);
   }
+
 
   public detailName(nombre: string): Observable<Especies>{
     return this.httpClient.get<Especies>(this.especiesURL + `detailname/${nombre}`);
