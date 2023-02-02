@@ -8,11 +8,15 @@ import { NuevoProductoComponent } from './producto/nuevo-producto.component';
 import { EditarProductoComponent } from './producto/editar-producto.component';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
-
+import { ListaEspeciesComponent } from './especies/lista-especies/lista-especies.component';
+import { NuevoEspeciesComponent } from './especies/nuevo-especies/nuevo-especies.component';
+import { EditarEspeciesComponent } from './especies/editar-especies/editar-especies.component';
 
 //External
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { DetallesEspeciesComponent } from './especies/detalles-especies/detalles-especies.component';
+
 
 
 @NgModule({
@@ -21,7 +25,11 @@ import { ToastrModule } from 'ngx-toastr';
     ListaProductoComponent,
     DetalleProductoComponent,
     NuevoProductoComponent,
-    EditarProductoComponent
+    EditarProductoComponent,
+    ListaEspeciesComponent,
+    NuevoEspeciesComponent,
+    EditarEspeciesComponent,
+    DetallesEspeciesComponent
   ],
   imports: [
     BrowserModule,
